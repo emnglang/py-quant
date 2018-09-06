@@ -7,3 +7,10 @@ y = x ** 2
 
 plt.plot(x,y)
 plt.show()
+
+plt.subplot(1,2,1)
+plt.plot(x,y,'r')
+plt.subplot(1,2,2)
+plt.plot(y,x,'b')
+plt.show()
+
