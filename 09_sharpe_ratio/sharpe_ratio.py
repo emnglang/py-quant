@@ -15,6 +15,7 @@ log_ret = np.log(stocks/stocks.shift(1))
 
 np.random.seed(101)
 weights = np.array(np.random.random(4))
+weights = weights/np.sum(weights)
 
 # expected return
 print('Expected Return')
